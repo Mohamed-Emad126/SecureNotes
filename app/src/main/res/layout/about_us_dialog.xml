@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_background"
+    android:layout_marginLeft="20dip"
+    android:layout_marginRight="20dip"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:text="@string/about_us"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/app_icon_image"
+                android:layout_gravity="center"
+                android:maxHeight="200dp"
+                android:minHeight="100dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_secure_notes"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="@color/customColorHighlight"
+                />
+
+            <TextView
+                android:paddingTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/my_mission"
+                />
+            <TextView
+                android:paddingTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/our_team"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="@color/customColorHighlight"
+                />
+            <TextView
+                android:paddingTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mohamed_emad_abd_el_sameaa"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_cancel_about_us"
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/close"
+                android:layout_gravity="center"
+                android:textColor="@color/colorPrimary"
+                app:backgroundTint="@color/customColorHighlight"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

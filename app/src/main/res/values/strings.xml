@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Secure Notes</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main_fragment_setting">Settings</string>
+    <string name="main_fragment_more">More</string>
+    <string name="action_mode_delete">Delete</string>
+    <string name="action_mode_selectall">Select all</string>
+
+    <string name="selected">selected</string>
+    <string name="Title">Title</string>
+    <string name="write_note">Note Content!</string>
+    <string name="done">Done</string>
+    <string name="color">Color</string>
+    <string name="new_note">New Note</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="chips">Use # before a Word to set it as Tag</string>
+    <string name="warning">Discard changes?</string>
+    <string name="discard">DISCARD</string>
+    <string name="cancel">CANCEL</string>
+    <string name="empty_discarded">Empty Note Discarded</string>
+    <string name="public_">Public</string>
+    <string name="private_">Private</string>
+    <string name="password">Password</string>
+    <string name="hiden_content">************* ****** *************** ******** ************* *******
+        ***** ******** *** ***** **** *********** ****** ********** ******** ************* *********
+        *** ******* ******* *********</string>
+    <string name="password_dialog">Security check</string>
+    <string name="error_password">Wrong password</string>
+    <string name="deleted">Deleted</string>
+    <string name="undo">Undo</string>
+    <string name="copied">Copied</string>
+    <string name="selection_denied">Can\'t select secure Notes</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="about_us">About Us</string>
+    <string name="about_secure_notes">About Secure Notes:</string>
+    <string name="my_mission"> Our mission is what drives Us to do everything possible to Keep peoples ideas and Secrets as secure as we can. We do that by Letting You to choose the privacy of your note, by making the Private notes invisible as it encrypted , by preventing any others -except the admin- from selecting,deleting and even change privacy of the secure note, and we also leave the whole privacy to you.</string>
+    <string name="our_team">our team:</string>
+    <string name="mohamed_emad_abd_el_sameaa">Mohamed Emad Abd El-Sameaa</string>
+    <string name="close">close</string>
+    <string name="gmail">Gmail:</string>
+    <string name="whatsapp">WhatsApp:</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="hint_password_summary">Default password helps you to set default password to the notes instead of write same password each time</string>
+    <string name="password_setting_preference">Default Password</string>
+    <string name="set_default_password">Set Default Password</string>
+    <string name="default_password">Default Password</string>
+    <string name="Change_default_password">Change Default Pasword</string>
+    <string name="note_for_change_password">Note if you change the Default password the Previous notes password will Remain the previous pass not the new.</string>
+    <string name="empty_pass">Empty cell</string>
+    <string name="wrong_password">Wrong Password</string>
+    <string name="sucess_change">Changed Successfully</string>
+    <string name="enable_default_pasword_snack">Default Password Enabled</string>
+    <string name="disable_default_pasword_snack">Default Password Disabled</string>
+
+</resources>

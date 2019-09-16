@@ -1,0 +1,39 @@
+<resources>
+
+
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionModeOverlay">true</item>
+
+        <item name="colorControlActivated">@color/colorAccent</item>
+
+    </style>
+
+    <style name="CustomTheme" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox" >
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">@android:color/holo_red_dark</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">@color/colorAccent</item>
+
+        <item name="android:background">@color/colorPrimary</item>
+
+    </style>
+
+
+</resources>

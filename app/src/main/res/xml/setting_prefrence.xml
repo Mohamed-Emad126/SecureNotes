@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreferenceCompat
+        app:key="default_password"
+        app:title="@string/password_setting_preference"
+        android:defaultValue="false"
+        app:iconSpaceReserved="false"
+        android:summary="@string/hint_password_summary"
+        />
+
+    <Preference
+        app:key="input_password"
+        app:title="@string/Change_default_password"
+        app:iconSpaceReserved="false"
+        android:defaultValue="com.example.securenotes.password"
+        android:summary="@string/note_for_change_password"
+        />
+
+
+
+</PreferenceScreen>
